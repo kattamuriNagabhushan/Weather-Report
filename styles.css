@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    margin-top: 90px;
+    color : white;
+    margin: auto;
+}
+.heading h1{
+    text-align: center;
+    margin : 0px;
+}
+.card{
+    width : 70%;
+    margin : auto;
+    margin-top : 10px;
+    background : linear-gradient(cyan , rgb(228, 205, 155));
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(191, 183, 188);
+    padding : 10px;
+}
+
+
+.search {
+    
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+    align-items: center;
+}
+
+.searchbox input{
+    margin-top: 10px;
+    padding : 13px 20px;
+    border-radius: 15px;
+    border : none;
+    width :100%;
+    font-size: 20px;
+    
+}
+.search-btn{
+    
+    margin-top: 10px;
+}
+
+.search-btn > button{
+    cursor : pointer;
+    border : none;
+    height : 45px;
+    width : 45px;
+    border-radius : 50%;
+}
+.search-btn > button > img{
+
+    height: 20px;
+    width : 20px;
+    
+}
+.error{
+    display: none;
+}
+
+.temp{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.city-name{
+    margin-top : 0px;
+}
+
+.city{
+    display: flex;
+    
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.city > img{
+    height: 100px;
+    width : 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.humi-wind{
+    display : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.humi-wind > div{
+    text-align: center;
+}
+
+.humi-wind > div > h5{
+    margin-bottom: 0px;
+}
+.humi-wind > div > p{
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.humi-img{
+    margin-top : 3px;
+    display: flex;
+    gap : 2px;
+    justify-content: space-between;
+}
+.humi-img > img{
+    height : 14px;
+}
+.wind-img{
+    display : flex;
+    gap : 2px;
+    justify-content: space-between;
+    margin-top : 3px;
+}
+.wind-img{
+    height: 14px;
+}
+
+.humidity{
+    margin-bottom: 20px;
+}
+
+.weather-day{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    color: rgb(15, 14, 14);
+}
+
+.day{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border : 3px solid rgb(74, 84, 87);
+}
